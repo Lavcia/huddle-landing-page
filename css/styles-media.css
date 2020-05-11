@@ -1,0 +1,132 @@
+@media  (max-width: 900px) {
+
+
+
+/* top container */
+
+.top-container {
+  justify-content: center;
+padding-top: 3%;
+}
+
+  .content-top {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+
+  }
+
+.text-top, .mockup {
+  width: 90%;
+  margin: 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.mockup {
+  padding-top: 3%;
+}
+
+/* cta */
+
+.cta {
+  width: 65%;
+}
+
+/* footer */
+
+.footer {
+
+}
+
+}
+
+@media (max-width: 650px) {
+
+
+/* middle divs */
+
+/* boxes */
+
+.grow, .users{
+display: flex;
+flex-direction: column-reverse;
+padding: 7% 2%;
+text-align: center;
+
+}
+
+.conversation {
+  display: flex;
+  flex-direction: column;
+  padding: 7% 2%;
+  text-align: center;
+}
+
+.conversation-content {
+  text-align: center;
+}
+
+/* images */
+
+.img-grow, .img-conversation, .img-users {
+  align-self: center;
+  justify-content: center;
+}
+
+/* cta */
+
+.cta {
+  width: 90%;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-left {
+  width: 90%;
+}
+
+.footer-socmed {
+  justify-content: center;
+  width: 100%;
+}
+
+}
+
+@media (max-width: 750px) and (min-width: 651px) {
+
+.footer {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+}
+
+.footer-left {
+  grid-area: 1/1/2/2;
+  width: 100%;
+}
+
+.footer-middle {
+  grid-area: 1/2/2/3;
+  align-items: center;
+  padding-top: 28%;
+}
+
+.footer-right {
+  grid-area: 2/1/3/2;
+}
+
+.footer-socmed {
+  grid-area: 2/2/3/3;
+  justify-self: center;
+
+}
+
+
+}
